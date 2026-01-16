@@ -204,6 +204,18 @@ body {
     transition: transform 0.3s ease;
 }
 
+.evolution-emoji {
+    font-size: 200px;
+    line-height: 1;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    user-select: none;
+}
+
+.evolution-emoji:hover {
+    transform: scale(1.1);
+}
+
 .evolution-display img:hover {
     transform: scale(1.02);
 }

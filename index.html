@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinosaurs - Explore the Prehistoric World</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Discover the Dinosaurs</h1>
+            <p>Journey back 66 million years to the age of giants</p>
+            <button class="cta-button" onclick="scrollToDinosaurs()">Explore Now</button>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <h2 class="logo">🦕 DinoWorld</h2>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#dinosaurs">Dinosaurs</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="about" class="about">
+        <h2>About Dinosaurs</h2>
+        <p>Dinosaurs were a diverse group of reptiles that dominated the Earth for over 160 million years. From the massive Brachiosaurus to the fearsome Tyrannosaurus Rex, these creatures shaped our planet's history.</p>
+    </section>
+
+    <section id="dinosaurs" class="dinosaurs">
+        <h2>Featured Dinosaurs</h2>
+        <div class="dino-grid">
+            <div class="dino-card">
+                <h3>Tyrannosaurus Rex</h3>
+                <p class="period">Late Cretaceous</p>
+                <p>The king of the dinosaurs, T-Rex was one of the largest meat-eating dinosaurs ever to roam the Earth.</p>
+            </div>
+            <div class="dino-card">
+                <h3>Triceratops</h3>
+                <p class="period">Late Cretaceous</p>
+                <p>A massive herbivore with three horns, known for its defensive capabilities and impressive frilled head.</p>
+            </div>
+            <div class="dino-card">
+                <h3>Stegosaurus</h3>
+                <p class="period">Late Jurassic</p>
+                <p>Famous for its distinctive back plates and tail spikes, this herbivore was a formidable creature.</p>
+            </div>
+            <div class="dino-card">
+                <h3>Velociraptor</h3>
+                <p class="period">Early Cretaceous</p>
+                <p>Intelligent pack hunters with sharp claws, Velociraptors were swift and deadly predators.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Get in Touch</h2>
+        <p>Have questions about dinosaurs? We'd love to hear from you!</p>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 DinoWorld. All rights reserved. 🦖</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

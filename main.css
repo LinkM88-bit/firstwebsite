@@ -111,6 +111,15 @@ body {
     color: #667eea;
 }
 
+.about-image {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
 .about p {
     font-size: 1.1rem;
     color: #555;
